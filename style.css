@@ -1,0 +1,130 @@
+#wrapper {
+	width:100%;
+	min-height:100%;
+	position:relative;
+	background-color:white;
+	margin-top:0px;
+    margin-left:0px;
+}
+
+#box {
+	height:200px;
+	width:200px;
+	background-color:black;
+	position:absolute;
+	top:500px;
+	left:20px;
+}
+
+
+#littlebox {
+
+	height:200px;
+	width:200px;
+	background-color:red;
+	position:absolute;
+	left:20px;
+	top:100px;
+}
+
+#littlebox:hover + #box { background-color: yellow; }
+
+#header {
+		border:0px;
+		padding:0px;
+		position:absolute;
+		top:2px;
+		left:5px;
+		z-index: 2;
+		font-family: Verdana;
+font-size:40px;
+color: #0056a7;
+    letter-spacing:0.5px;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: dimgray;
+	}
+
+#menu {
+	border:0px;
+	padding:0px;
+	position:absolute;
+	top:27px;
+	left:350px;
+	z-index:2;
+}
+
+body {
+   margin:0px;
+   padding:0px;
+   height:100%;
+}
+
+#mountain {
+	
+    position:absolute;
+    left:0px;
+    top:45px;
+    height:14px;
+    width:100%;
+    background-image: url("backgroundmtn.png");
+    z-index:1;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+}
+
+#content{
+	width:90%;
+	position:relative;
+	top:212px;
+	left:50px;
+	padding-bottom:400px;
+	z-index:3;
+}
+
+.menu {
+font-family: helvetica;
+	font-weight: normal;
+	font-size:15px;
+	padding: 10px 10px 2px 4px;
+}
+
+.selected {
+	font-family: helvetica;
+	font-weight: normal;
+	font-size:15px;
+	color:#f37924;
+	padding: 8px 8px 6px 8px;
+}
+
+a:link.menu, a:visited.menu {
+	color:#0056a7;
+	text-decoration:none;
+}
+
+a:hover.menu, a:active.menu {
+	background-color:black;
+	color:white;
+}
+
+h2 {
+	font-family: Helvetica;
+	font-size:18px;
+	color:#f37924;
+	font-weight:bold;
+	font-style:italic;
+}
+
+.content {
+	font-family: helvetica;
+	color:black
+	font-size:11px;
+}
+
+a:link, a:visited {
+	color:#0056a7;
+	text-decoration:none;
+}
+a:hover, a:active {
+	color:#f37924;
+	text-decoration: underline;
+}
